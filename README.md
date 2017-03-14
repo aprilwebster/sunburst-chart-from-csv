@@ -4,7 +4,7 @@ Obtain a sunburst chart visualization for a personality profile.  For use in an 
 
 ![Personality Sunburst Chart](./examples/personality-sunburst-chart-small.png)
 
-## Step 1: Converting a CSV file with personality traits into a Waton Personality Insights JSON profile
+## Step 1: Convert a CSV file with personality traits and scores into a Waton Personality Insights JSON profile
 This is required if you only have a csv containing the scores for the personality traits.
 
 ### Required files
@@ -16,7 +16,7 @@ v3_labels.txt - a text file that maps trait label names to the placeholders in t
 TBA
 
 
-## Step 2: Creating a Sunburst Chart from a Watson Personality Insights JSON profile
+## Step 2: Create a Sunburst Chart from a Watson Personality Insights JSON profile
 ### Required files
 example_v2.html - when you update this with a profile.json and profile_photo.jpg and open it in a browser, the generated sunburst chart will be generated and shown
 profile.json - a Watson Personality Insights JSON profile
