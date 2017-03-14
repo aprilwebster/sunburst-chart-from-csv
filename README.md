@@ -8,9 +8,9 @@ Obtain a sunburst chart visualization for a personality profile.  For use in an 
 This is required if you only have a csv containing the scores for the personality traits.
 
 ### Required files
-* __generate_sunburst_json_from_csv.ipynb__ - the python script you run to convert a csv profile to a json profile
-* __template.json__ - the target json format with placeholders for the scores pulled from the csv
-* __v3_labels.txt__ - a text file that maps trait label names to the placeholders in template.json
+*   __generate_sunburst_json_from_csv.ipynb__ - the python script you run to convert a csv profile to a json profile
+*   __template.json__ - the target json format with placeholders for the scores pulled from the csv
+*   __v3_labels.txt__ - a text file that maps trait label names to the placeholders in template.json
 
 ### Instructions
 TBA
