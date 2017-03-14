@@ -8,9 +8,9 @@ Obtain a sunburst chart visualization for a personality profile.  For use in an 
 This is required if you only have a csv containing the scores for the personality traits.
 
 ### Required files
-generate_sunburst_json_from_csv.ipynb - the script you run to convert a csv profile to a json profile
-template.json - the target json format with placeholders for the scores pulled from the csv
-v3_labels.txt - a text file that maps trait label names to the placeholders in template.json
+* __generate_sunburst_json_from_csv.ipynb__ - the python script you run to convert a csv profile to a json profile
+* __template.json__ - the target json format with placeholders for the scores pulled from the csv
+* __v3_labels.txt__ - a text file that maps trait label names to the placeholders in template.json
 
 ### Instructions
 TBA
@@ -18,9 +18,9 @@ TBA
 
 ## Step 2: Create a Sunburst Chart from a Watson Personality Insights JSON profile
 ### Required files
-example_v2.html - when you update this with a profile.json and profile_photo.jpg and open it in a browser, the generated sunburst chart will be generated and shown
-profile.json - a Watson Personality Insights JSON profile
-profile_photo.jpg
+* __example_v2.html__ - when you update this with a profile.json and profile_photo.jpg and open it in a browser, the generated sunburst chart will be generated and shown
+* __profile.json__ - a Watson Personality Insights JSON profile
+* __profile_photo.jpg__ - image for the owner of the profile; it will appear in the middle of the sunburst chart
 
 ### Instructions
 Include the following libraries as scripts in your HTML page.
